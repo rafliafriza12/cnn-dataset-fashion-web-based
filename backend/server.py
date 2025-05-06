@@ -7,7 +7,7 @@ from PIL import Image
 
 app = Flask(__name__)
 CORS(app)
-model = load_model('LeakyReLUCNN_best.h5')
+model = load_model('AdvancedCNN_best.h5')
 
 IMG_SIZE = (28, 28)
 
