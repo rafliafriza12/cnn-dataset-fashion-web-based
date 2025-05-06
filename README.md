@@ -73,7 +73,7 @@ http://localhost:5173
 ## Technologies Used
 
 - Backend: Flask, TensorFlow, NumPy
-- Frontend: React (Vite)
+- Frontend: Vue, Vue Router, Pinia and Vite
 
 
 ## Author
