@@ -1,81 +1,98 @@
-# CNN Fashion Dataset Web-Based Project
+# Aplikasi Web Klasifikasi Fashion Dataset dengan CNN
 
-This is a web-based application for CNN (Convolutional Neural Network) classification of fashion datasets.
+## Source Code
+```bash
+https://github.com/rafliafriza12/cnn-dataset-fashion-web-based
+```
 
-## Prerequisites
+## Team
+1. Rafli Afriza Nugraha
+2. Glenn Hakim
+3. Athar Rayyan Muhammad
+4. T.Farhansyah
+5. Al mahfudz Fadlur Rohman
+
+## Deskripsi Proyek
+
+Proyek ini adalah aplikasi berbasis web yang menggunakan Convolutional Neural Network (CNN) untuk melakukan klasifikasi pada dataset fashion. Aplikasi ini menerapkan teknologi machine learning untuk mengenali dan mengklasifikasikan berbagai item pakaian dan aksesoris fashion. Dengan antarmuka web yang intuitif, pengguna dapat mengupload gambar pakaian untuk mendapatkan prediksi kategori fashion dari model CNN yang telah dilatih.
+
+## Prasyarat
 
 - Git
 - Python 3.x
-- Node.js and npm/yarn
+- Node.js dan npm/yarn
 
-## Installation and Setup
+## Instalasi dan Pengaturan
 
-### 1. Clone the Repository
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/rafliafriza12/cnn-dataset-fashion-web-based.git
 ```
 
-### 2. Backend Setup
+### 2. Pengaturan Backend
 
 ```bash
-# Navigate to the project directory
+# Masuk ke direktori proyek
 cd cnn-dataset-fashion-web-based
 
-# Navigate to the backend directory
+# Masuk ke direktori backend
 cd backend
 
-# Install dependencies
+# Install dependensi
 pip install flask flask-cors tensorflow numpy
 
-# Run the backend server
-# For Linux/macOS:
+# Jalankan server backend
+# Untuk Linux/macOS:
 python3 server.py
-# For Windows:
+# Untuk Windows:
 python server.py
 ```
 
-### 3. Frontend Setup
+### 3. Pengaturan Frontend
 
-Open a new terminal tab/window and:
+Buka tab terminal baru dan:
 
 ```bash
-# Navigate back to the project root
+# Kembali ke direktori utama proyek
 cd ..
 
-# Navigate to the frontend directory
+# Masuk ke direktori frontend
 cd frontpage
 
-# Install dependencies (choose one)
+# Install dependensi (pilih salah satu)
 npm install
-# OR
+# ATAU
 yarn install
 
-# Run the development server
+# Jalankan server pengembangan
 npm run dev
-# OR
+# ATAU
 yarn dev
 ```
 
-### 4. Access the Application
+### 4. Akses Aplikasi
 
-Open your browser and navigate to:
+Buka browser dan kunjungi:
 
 ```
 http://localhost:5173
 ```
 
-## Project Structure
+## Struktur Proyek
 
-- `backend/`: Contains the Flask server and CNN model
-- `frontpage/`: Contains the frontend application
+- `backend/`: Berisi server Flask dan model CNN
+- `frontpage/`: Berisi aplikasi frontend dengan Vue.js
 
-## Technologies Used
+## Teknologi yang Digunakan
 
-- Backend: Flask, TensorFlow, NumPy
-- Frontend: Vue, Vue Router, Pinia and Vite
+### Backend
+- Flask (Web Framework Python)
+- TensorFlow (Library Machine Learning)
+- NumPy (Library Komputasi Numerik)
 
-
-## Author
-
-Rafli Afriza Nugraha
+### Frontend
+- Vue.js (Framework JavaScript)
+- Vue Router (Manajemen Routing)
+- Pinia (State Management)
+- Vite (Build Tool)
